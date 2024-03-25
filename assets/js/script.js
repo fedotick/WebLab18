@@ -10,7 +10,7 @@ document.getElementById('inputTask1').addEventListener('input', function() {
 // 2
 document.getElementById('inputTask2').addEventListener('input', function() {
     const mySet = new Set();
-    const words = this.value.split(' ');;
+    const words = this.value.replace(/[.,!?]/g, ' ').split(' ');
     words.forEach(word => mySet.add(word));
 
     document.getElementById('outputTask2').value = Array.from(mySet);

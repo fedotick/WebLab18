@@ -10,9 +10,9 @@ Repositories with solved tasks.
 
 3. Given a dictionary consisting of word pairs. Each word is a synonym to its paired word. All words in the dictionary are different. For a word from the dictionary, recorded in the last line, determine its synonym.
 
-4. 1. Create an object `city1` (`let city1 = {}`), specify its properties: `name` (the name of the city, string) with the value "CityN" and `population` (the population of the city, number) with the value of 10 million.
+4. 1. Create an object `city1` (`let city1 = {}`), specify its properties: `name` (the name of the city, string) with the value "ГородN" and `population` (the population of the city, number) with the value of 10 million.
       
-   2. Create an object `city2` using the notation `{name: "CityM", population: 1e6}`.
+   2. Create an object `city2` using the notation `{name: "ГородM", population: 1e6}`.
    
    3. Create methods `getName()` for objects `city1` and `city2`, which will return the corresponding city names.
    
